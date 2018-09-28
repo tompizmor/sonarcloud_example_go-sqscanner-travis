@@ -1,6 +1,6 @@
 package sonarcloud_go_qscanner_travis
 
 func noHardcodedCredentials() string  {
-  password := "bar"
+  password := randomElement(letters)
   return password
 }
